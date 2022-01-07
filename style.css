@@ -1,0 +1,34 @@
+nav {
+    height: 8vh;
+    width: 100%;
+}
+
+nav i {
+    cursor: pointer;
+}
+
+.map {
+    height: 92vh;
+    width: 100%;
+}
+
+.info {
+    height: 15rem;
+    width: 12rem;
+    color: #fff;
+    font-size: .9rem;
+    padding: .5rem;
+    cursor: pointer;
+    overflow-y: scroll;
+}
+
+.info h5 { 
+    font-weight:800;
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+        height: 10rem;
+        width: 10rem;
+    }
+}
